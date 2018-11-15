@@ -6,11 +6,18 @@ body {
     color: #585252;
 }
 
-/* .navbar {
-    background: #ffffff;
-} */
+header {
+    width : 100%;
+    height: 30px;
+}
 
-.navbar-brand {
+.navbar-main {
+    margin-top : -1px;
+    background: none;
+}
+
+
+.navbar-light .navbar-brand {
     color : #f5cb62;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-size: 30px; 
@@ -18,8 +25,15 @@ body {
     line-height: 70px;
 }
 
-.nav-link {
-    color : #f5cb62;
+.navbar-light .navbar-nav .nav-link {
+    color : #ffffff;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+    background: #f5cb62;
 }
 
 .name {
@@ -137,8 +151,36 @@ a:hover{
     font-size: 10px;
 }
 
+/*Media queries*/
 
-/* .my-picture {
-    background : url('https://placehold.it/200x200')
+
+    
+
+
+@media screen and (min-width:575.98px) {
+    .greeting {
+       margin-top: 185px;
+    }
+
+}
+
+/* @media screen and (max-width:575.98px) {
+    .greeting {
+       margin-top: 185px;
+    }
+
 } */
 
+@media screen and (min-width: 768px) {
+    /* #navbar-main{
+        background: blue;
+    } */
+
+}
+
+@media screen and (max-width: 991.98px) {
+    #navbar-main {
+        background: #000000;
+    } 
+
+}
