@@ -26,10 +26,10 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color : #ffffff;
+    color : #f5cb62;
 }
 .navbar-light .navbar-nav .nav-link.active{
-    color: #ffffff;
+    color: #f5cb62;
 }
 
 .navbar-light .navbar-toggler {
