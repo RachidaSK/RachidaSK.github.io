@@ -79,6 +79,7 @@ header {
 
 .skills-row {
     z-index: -1;
+    position: relative;
 }
 
 
@@ -88,7 +89,6 @@ header {
 
 .Skills {
     background: #ffffff;
-    position: relative;
     bottom: -20px;
     border: solid 0.5px #e8ebee;
     /* height:100px; */
@@ -103,25 +103,29 @@ header {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
+
 #columnImg {
     width: 100px;
     height:100px;
     margin-top: 10px;
 }
+
 .columnTitle {
     margin-top: 15px;
     color: #000000;
     font-weight: bolder;
 }
 
-
-
 .skills-btn {
     background: #000000;
 }
-
+.skill-title {
+    color: #f5cb62;
+    font-weight: bold
+}
 .portfolio-img {
     width: 100%;
+    height:400px;
 }
 
 .portfolio-btn {

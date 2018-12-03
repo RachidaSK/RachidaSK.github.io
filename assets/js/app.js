@@ -12,9 +12,9 @@ $(document).ready(function () {
         if (scrollPos >= top1 && scrollPos < about) {
             $('#navbar-main').css('background', 'none');
         } else if (scrollPos >= about && scrollPos < portfolio) {
-            $('#navbar-main').css('background-color', '#ffffff');
-        } else if (scrollPos >= portfolio) {
             $('#navbar-main').css('background-color', '#000000');
+        } else if (scrollPos >= portfolio) {
+            $('#navbar-main').css('background-color', '#ffffff');
         }
     });
 
